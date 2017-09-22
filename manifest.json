@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1",
+  "api_version": "1",
+  "name": "Exit Cinnamon",
+  "description": "Logout / Reboot / Shutdown functions for Cinnamon desktop.",
+  "developer_name": "gurkan.in",
+  "icon": "images/exit.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "cinnamonsession_ext",
+      "type": "keyword",
+      "name": "Exit Cinnamon",
+      "description": "Logout / Reboot / Shutdown functions for Cinnamon desktop.",
+      "default_value": "exit"
+    }
+  ]
+}
+
