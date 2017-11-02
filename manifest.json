@@ -2,7 +2,7 @@
   "manifest_version": "1",
   "api_version": "1",
   "name": "Exit XFCE",
-  "description": "Logout / Reboot / Shutdown functions for XFCE desktop.",
+  "description": "Session logout functions for XFCE desktop.",
   "developer_name": "leiserfg",
   "icon": "images/exit.png",
   "options": {
@@ -13,9 +13,8 @@
       "id": "xfce_ext",
       "type": "keyword",
       "name": "Exit XFCE",
-      "description": "Logout / Reboot / Shutdown functions for Cinnamon desktop.",
+      "description": "Session logout functions for XFCE desktop.",
       "default_value": "exit"
     }
   ]
 }
-
