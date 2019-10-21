@@ -7,9 +7,8 @@ from ulauncher.api.shared.action.RenderResultListAction import (
     RenderResultListAction
 )
 from ulauncher.api.shared.action.RunScriptAction import RunScriptAction
-from ulauncher.util.image_loader import icon_theme, Gtk
-
-
+from ulauncher.utils.image_loader import icon_theme, Gtk
+ 
 def get_icon_path(name, size):
     info = icon_theme.lookup_icon(name, size, Gtk.IconLookupFlags.FORCE_SIZE)
     if info is not None:
